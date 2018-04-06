@@ -1,3 +1,4 @@
+
 $(document).ready(()=>{
  $('.block_10__slider').slick({
    slidesToShow: 4,
@@ -39,7 +40,7 @@ $(document).ready(()=>{
    }
    ]
  });
- if (window.innerWidth <= 767) {
+ /*if (window.innerWidth <= 767) {
    $('.block_5__content__item__charts').slick({
      slidesToShow: 2,
      slidesToScroll: 2,
@@ -48,7 +49,7 @@ $(document).ready(()=>{
      arrows: false,
      dotsClass: 'block_10_dots'
    });
- }
+ }*/
    // if (window.innerWidth <= 768){
    //     $('.block_7__roadmap').slick({
    //         slidesToShow: 1,

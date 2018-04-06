@@ -82,6 +82,14 @@
         .block_5__content__item__chart {
           flex-basis: 20%;
           margin-bottom: 70px;
+          @media (max-width: 767px) {
+            flex-basis: 33%;
+            margin-bottom: 50px;
+            align-items: center;
+          }
+          @media (max-width: 420px) {
+            flex-basis: 50%
+          }
         }
         .block_5__content__item__charts {
           width: 90%;
