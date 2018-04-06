@@ -18,9 +18,7 @@ gulp.task("style", function() {
             cascade: false
         }))
         .pipe(gulp.dest("css"))
-        .pipe(rename("style.css"))
 
-        .pipe(gulp.dest("css"))
 });
 
 
