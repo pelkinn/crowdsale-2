@@ -12,6 +12,7 @@
     margin: 20px 0;
   }
   &__header {
+    position: relative;
     font-size: 60px;
     color: $white;
     font-family: 'Roboto', sans-serif;
@@ -20,6 +21,7 @@
     line-height: 1;
   }
   &__video_button {
+    position: relative;
     color: $white;
     cursor: pointer;
     a {
@@ -73,6 +75,7 @@
     }
   }
   &__button {
+    position: relative;
     color: $white;
     text-decoration: none;
     padding: 20px 50px;
