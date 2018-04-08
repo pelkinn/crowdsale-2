@@ -75,6 +75,7 @@
     }
   }
   &__button {
+
     position: relative;
     color: $white;
     text-decoration: none;
@@ -84,6 +85,9 @@
     user-select: none;
     &:hover {
       background-image: linear-gradient(66deg, #3086bd 0%, #3086bd 1%, #5ca4d2 100%);
+    }
+    &.custom-parametr {
+      margin-top: 80px;
     }
   }
   &__email{
