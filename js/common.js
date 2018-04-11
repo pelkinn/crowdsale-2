@@ -82,7 +82,7 @@ $(document).ready(()=>{
    $('.header_item').click(function() {
      $(this).addClass('active');
      var attr = $(this).attr('data-index');
-     var scroll = $('section.block[data-index="'+attr+'"]').offset().top;
+     var scroll = $('.block[data-index="'+attr+'"]').offset().top;
      $('html,body').animate ({scrollTop: scroll},500)
      return false;
    })
