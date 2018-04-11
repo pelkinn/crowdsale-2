@@ -162,6 +162,7 @@ $(document).ready(()=>{
    });
    particlesJS.load('particles-js-2', 'js/particles.json', function() {
    });
+
  });
 
 
