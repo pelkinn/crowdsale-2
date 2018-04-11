@@ -82,13 +82,13 @@ $(document).ready(()=>{
    $('.header_item').click(function() {
      $(this).addClass('active');
      var attr = $(this).attr('data-index');
-     var scroll = $('.block[data-index="'+attr+'"]').offset().top - 60;
+     var scroll = $('.block[data-index="'+attr+'"]').offset().top - 80;
      $('html,body').animate ({scrollTop: scroll},500)
      return false;
    })
    $('.anchor').click(function() {
     var attr = $(this).attr('data-index');
-    var scroll = $('.block_8__content_item[data-index="'+attr+'"]').offset().top - 60;
+    var scroll = $('.block_8__content_item[data-index="'+attr+'"]').offset().top - 80;
     $('html,body').animate ({scrollTop: scroll},500)
   })
    if ($(window).width() > 1199) {
